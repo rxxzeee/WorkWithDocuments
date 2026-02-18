@@ -13,7 +13,15 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Spire.PDF" Version="11.11.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Spire.License">
+      <HintPath>Libs\Spire.License.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.Pdf">
+      <HintPath>Libs\Spire.Pdf.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
